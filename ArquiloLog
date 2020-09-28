@@ -1,0 +1,31 @@
+import java.lang.System.Logger.Level;
+import java.util.logging.Logger;
+
+/**
+ * 
+ */
+
+/**
+ * @author chris
+ *
+ */
+public  class ArquivoLog {
+
+   private FileWriter arquivo;
+   private static ArquivoLog;
+   
+   public ArquivoLog() {
+	   try {
+	  
+      this.arquivo = new Filewriter("c:\teste.log"); 
+      
+      catch(IOException ex) {
+		Logger.getLogger(ArquivoLog.class.getName()).log(Level.SEVERE,null,e)
+      }
+      
+      public static getInstance() {
+    	  if ( log == null) {
+    		  log = new ArquivoLog();
+    		  
+    		  return log;
+    		  
