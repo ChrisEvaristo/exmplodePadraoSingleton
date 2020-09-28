@@ -1,0 +1,8 @@
+   
+
+public class Teste Singleton
+
+public static void main (String []args) {
+	ArquivoLog arq = ArquivoLog.getInstance();
+	ArquivoLog arq2 =ArquivoLog.getInstance();  
+}
